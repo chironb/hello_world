@@ -1,0 +1,3 @@
+// MyLib.c
+
+int Variable;
