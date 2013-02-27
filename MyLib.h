@@ -1,20 +1,30 @@
 // MyLib.h
 
+#ifndef MYLIB_H
+#define MYLIB_H
 
-// import? ref? whatever? the DubStep type
 
-typedef struct {
+#define PUBLIC /* empty */
+#define PRIVATE static 
+
+
+
+typedef struct DubStep {
 	int dub;
 	int step;
-} DubStep ; //end typedef struct
+} DubStep; //end typedef struct
+
+
 
 extern DubStep my_track;
+
 
 extern int Variable;
 
 extern int something_public;
 
-extern int something_private;
-
 extern void crapola(void);
 
+
+
+#endif

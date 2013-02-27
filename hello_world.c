@@ -2,21 +2,25 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-#include <conio.h>
-#include <peekpoke.h>
-#include <ctype.h>
+//#include <conio.h>
+//#include <peekpoke.h>
+//#include <ctype.h>
 
 
 #include "MyLib.h"
 
 
- 
 DubStep some_track; // I can create a new one here or...
+
+
 
 int main(void)
 {
     Variable = 10;
     something_public = 111;
+
+	
+
 
     
     some_track.dub = 4444; // ...and use it here... 
