@@ -10,7 +10,7 @@
 #include "MyLib.h"
 
 
-DubStep some_track; // I can create a new one here or...
+DubStep some_track; // I can create a new one here...
 
 
 
@@ -18,8 +18,6 @@ int main(void)
 {
     Variable = 10;
     something_public = 111;
-
-	
 
 
     
